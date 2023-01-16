@@ -4,25 +4,105 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+/* typography */
+h1 {
+   font-size: 36px;
+}
+h2 {
+   font-size: 24px;
+   margin-top: 0px;
+}
+h3 {
+   font-size: 20px;
+   color: #d0aaff;
+}
+.text-light{
+   color: whitesmoke;
+}
+section p{
+   line-height: 23px;
+}
 
-/* 
-Challenge:
-1. Create a "header" selector.
-2. Give it its background color.
-3. What CSS property do you need to use to remove
-   the annoying white space at the top? Give this 
-   property a value of 45px top and bottom.
-3. Create selectors for the h1 and h3 elements.
-4. Assign the correct margins, size & colors to h1
-   and h3.
-At the end of the challenge, the h1 and h3 will 
-still be up right up against the left-hand edge of 
-the browser. That is fine for now.   
-*/
- 
- 
+/* links */
+a {
+   text-decoration: dotted underline;
+   color: #ef5389;
+}
 
+a:hover, a:active {
+   color: #d4b44c;
+}
+
+
+.btn{
+   padding: 10px 19px;
+   border: 1px solid black;
+   border-radius: 4.6px;
+   text-decoration: none;
+   font-weight: 500;
+   display: inline-block;
+   margin-top: 10px;
+}
+
+.btn-dark{
+   background-color: #5f29a3;
+   color: whitesmoke;
+}
+
+.btn-light{
+   background-color: whitesmoke;
+   color: #5f29a3;
+}
+
+.btn-accent{
+   background-color: #f0e0ff;
+   color: #5f29a3;
+}
+
+.btn:hover{
+   background-color: #f3e885;
+   color: #2b283a;
+}
+
+
+/* layout */
+header{
+   color: whitesmoke;
+}
+header, section, footer{
+   padding: 45px 0;
+}
+.container{
+   width: 620px;
+   margin: 0 auto;
+}
+.main-image{
+   padding: 45px 0;
+   width: 100%;
+}
+header, .section-two{
+   background-color: #5f29a3;
+}
+
+.section-two{
+   color: whitesmoke;
+}
  
+.img-container{
+   display: flex;
+   /* border: 1px solid black; */
+   justify-content: space-between;
+}
+
+.feature-image{
+   width: 300px;
+   border-radius: 4.6px;
+}
+
+footer{
+   text-align: center;
+   color: #5f29a3;
+} 
  
 
 
